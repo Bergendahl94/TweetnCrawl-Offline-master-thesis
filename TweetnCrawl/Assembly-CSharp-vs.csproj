@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{EF737022-03A9-AF0E-2CC9-8549848C7392}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_4;UNITY_4_5;UNITY_STANDALONE_LINUX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BloodFlow.cs" />
+     <Compile Include="Assets\BulletFade.cs" />
+     <Compile Include="Assets\CursorBehaviour.cs" />
+     <Compile Include="Assets\GoreExplosion.cs" />
+     <Compile Include="Assets\LayerHack.cs" />
+     <Compile Include="Assets\OnHitEffect.cs" />
+     <Compile Include="Assets\Resources\Main_menu_resources\Scripts\Credits.cs" />
+     <Compile Include="Assets\Resources\Main_menu_resources\Scripts\Exit.cs" />
+     <Compile Include="Assets\Resources\Main_menu_resources\Scripts\HashtagChoice.cs" />
+     <Compile Include="Assets\Resources\Main_menu_resources\Scripts\HowToPlay.cs" />
+     <Compile Include="Assets\Resources\Main_menu_resources\Scripts\MessageScaling.cs" />
+     <Compile Include="Assets\Resources\Main_menu_resources\Scripts\PlayGame.cs" />
+     <Compile Include="Assets\Resources\Main_menu_resources\Scripts\ScaleGUI.cs" />
+     <Compile Include="Assets\Resources\Main_menu_resources\Scripts\ScaleHowToPlay.cs" />
+     <Compile Include="Assets\Resources\Scripts\Animator.cs" />
+     <Compile Include="Assets\Resources\Scripts\BSTgen.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharacterController.cs" />
+     <Compile Include="Assets\Resources\Scripts\CharacterHealth.cs" />
+     <Compile Include="Assets\Resources\Scripts\DestroySelf.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemies\BaseEnemy.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemies\BasicEnemy.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemies\EnemyScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemies\EnemyScript2.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemies\HiveEnemy.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemies\RangedSplitter.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemies\Splitter.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemies\TeleporterEnemy.cs" />
+     <Compile Include="Assets\Resources\Scripts\EnemyRandomizer.cs" />
+     <Compile Include="Assets\Resources\Scripts\ExplosionScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\Extensions.cs" />
+     <Compile Include="Assets\Resources\Scripts\GameOver.cs" />
+     <Compile Include="Assets\Resources\Scripts\HashtagGrid.cs" />
+     <Compile Include="Assets\Resources\Scripts\Hub.cs" />
+     <Compile Include="Assets\Resources\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Resources\Scripts\JsonHelper.cs" />
+     <Compile Include="Assets\Resources\Scripts\LaserFade.cs" />
+     <Compile Include="Assets\Resources\Scripts\MapChecker.cs" />
+     <Compile Include="Assets\Resources\Scripts\MapGen.cs" />
+     <Compile Include="Assets\Resources\Scripts\MapPopulator.cs" />
+     <Compile Include="Assets\Resources\Scripts\MouseFollower.cs" />
+     <Compile Include="Assets\Resources\Scripts\ObjectPlacer.cs" />
+     <Compile Include="Assets\Resources\Scripts\OldCharacterController.cs" />
+     <Compile Include="Assets\Resources\Scripts\Pooling.cs" />
+     <Compile Include="Assets\Resources\Scripts\Projectiles\BaseProjectile.cs" />
+     <Compile Include="Assets\Resources\Scripts\Projectiles\EnemyProjectile.cs" />
+     <Compile Include="Assets\Resources\Scripts\Projectiles\ScatterProjectile.cs" />
+     <Compile Include="Assets\Resources\Scripts\ScreenShake.cs" />
+     <Compile Include="Assets\Resources\Scripts\ServerConnector.cs" />
+     <Compile Include="Assets\Resources\Scripts\SmoothCamera2D.cs" />
+     <Compile Include="Assets\Resources\Scripts\SpriteHandler.cs" />
+     <Compile Include="Assets\Resources\Scripts\Tile.cs" />
+     <Compile Include="Assets\Resources\Scripts\TileMap.cs" />
+     <Compile Include="Assets\Resources\Scripts\TileStruct.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\AutoShotgun.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\BaseProjectileWeapon.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\BaseWeapon.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\DualRevolvers.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\Launcher.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\LightGun.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\MachineGun.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\Minigun.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\OrbitalWeapon.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\RailGun.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\SawnOff.cs" />
+     <Compile Include="Assets\Resources\Scripts\Weapons\ShotgunWeapon.cs" />
+     <Compile Include="Assets\Resources\Scripts\pickup\AmmoPickup.cs" />
+     <Compile Include="Assets\Resources\Scripts\pickup\HealthPickup.cs" />
+     <Compile Include="Assets\Resources\Scripts\pickup\PickupBase.cs" />
+     <Compile Include="Assets\Resources\Scripts\pickup\PickupWeapon.cs" />
+     <Compile Include="Assets\RoadSignBehaviour.cs" />
+     <Compile Include="Assets\ScalingScript.cs" />
+     <Compile Include="Assets\TextOutline.cs" />
+     <Compile Include="Assets\enemyr.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
